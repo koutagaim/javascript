@@ -1,0 +1,49 @@
+h1 {
+font-family: "MS Pゴシック";
+font-weight: 100;
+width: 900px;
+height: 300px;            
+position: static;
+top: 50%;
+left: 50%;
+margin-left: -450px;    /* マイナス「横幅÷2」 */
+margin-top: -150px;    /* マイナス「高さ÷2」 */
+}
+
+
+.text-blue {
+  color: #00FFFF;
+  }
+.text-green{
+  color: #00FF00;
+  font-family: Georgia, serif;
+}
+.btn-white {
+  color: #fff;
+  border: 1px solid #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0); }
+  .btn-white:hover {
+    color: #fff; }
+
+.top-hero-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: image-url("ggdolls.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646; }
+
+.top-hero-container {
+  padding-top: 220px; }
+  .top-hero-container h1 {
+    font-size: 56px;
+    margin-bottom: 20px; }
+  .top-hero-container h2 {
+    margin-bottom: 60px; }
+
+/*# sourceMappingURL=form.css.map */
