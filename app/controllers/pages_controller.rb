@@ -3,6 +3,5 @@ class PagesController < ApplicationController
   end
   def help
   end
-  def clash
-  end
+  
 end
