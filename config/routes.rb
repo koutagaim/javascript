@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'sessions/new'
   get 'artists/index'
   # get 'artists/index'
   get 'users/new'
@@ -6,11 +7,12 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 root 'pages#index'
 # root 'music#index'
-root 'artists#index'
+# root 'artists#index'
 get 'artists/index'
 get 'pages/help'
-get 'pages/clash'
-get 'pages/coldplay'
-resources :users
 
+resources :users
+get    '/login',   to: 'sessions#new'
+post   '/login',   to: 'sessions#create'
+delete '/logout',  to: 'sessions#destroy'
 end

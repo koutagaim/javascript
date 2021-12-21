@@ -67,5 +67,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
 gem 'bootstrap-sass'
 
-gem 'carrierwave'
-# gem 'rmagick'
+# gem 'carrierwave'
+gem 'bcrypt'
